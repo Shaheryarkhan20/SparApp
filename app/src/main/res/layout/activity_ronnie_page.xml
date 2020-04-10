@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".RonniePage">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Ronnie's Story"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/headingColor"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:text="RIP Ronnie 9:40pm July 1, 2017 Ronnie, the 7mth old male Husky puppy passed away in front of me, taken by Parvo. The disease peaked and his frail body and broken spirit did not have the strength and immunity to fight through. To fight the toxicity of the disease that is human ego, greed, and self righteotusness. Ronnie was not my pet. I met him last week only. Raised an alarm. At first gently through people who knew the owner. Then earlier this week through social media. As a last resort. When I couldn’t bear to see his suffering at 7am As I passed by his pen area on the footpath outside his owners house, alone, on a cemented area, on the street, in the 40+ degree Karachi heat, humidity, street pollution and no one to care for him. Often chained. He barely stood up to come say hello to me. Maybe he had already started to believe that he was invisible and invaluable.That his life didn’t matter. That he didn’t matter. For all the devout Muslims who were fasting and watching Ronnie’s life go, In the holy month of giving and caring, compassion and looking after the needy, the voiceless, the month of Ramzan. Celebrating Eid. While he slowly died. Something to think about what you have earned in that month. When Ronnie and I first met, His Nose was dry and hard, fever raged through his body, eyes lifeless and glazed. Thick triple coat Fur dirty matted and riddled with ticks. Stale Food uneaten. Water bowl empty. Alone. Ronnie belonged to a well known Pakistani TV actor, who also owns a TV drama series production company. Entertainment for the “awam”. A man with a fan following, a voice to influence society. "/>
+</LinearLayout>
+</ScrollView>

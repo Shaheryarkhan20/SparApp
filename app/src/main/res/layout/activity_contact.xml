@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:openDrawer="start">
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum = "1">
+
+            <ImageView
+                android:id="@+id/toggleMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_black_32dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="10dp"
+
+                android:layout_gravity="top|left"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Information"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/headingColor"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="info@sparpk.org"
+                    android:layout_toRightOf="@+id/mail"
+                    android:paddingLeft="15dp"
+                    android:textAlignment="textEnd"
+                    android:gravity="end" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow us on social media"
+                android:textColor="@color/BgColor"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/fb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Facebook:"
+                    android:textColor="@color/headingColor"/>
+                <TextView
+                    android:id="@+id/fbLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="www.facebook.com/spar.animalrights/"
+                    android:layout_toRightOf="@+id/fb"
+                    android:paddingLeft="5dp"
+                    android:textAlignment="textEnd"
+                    android:gravity="end" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Twitter:"
+                    android:textColor="@color/headingColor"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/twitterLink"
+                    android:text="twitter.com/spar_pk"
+                    android:layout_toRightOf="@+id/twitter"
+                    android:paddingLeft="15dp"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/youtube"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YouTube:"
+                    android:textColor="@color/headingColor"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/YoutubeLink"
+                    android:text="www.youtube.com/channel/UCuen_HgMcn70TEHTP9P4JwQ"
+                    android:layout_toRightOf="@+id/youtube"
+                    android:paddingLeft="5dp"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send us Your Query"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/headingColor"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:id="@+id/contactname"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Name"
+                android:background="@drawable/form_border"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                />
+            <EditText
+                android:id="@+id/contactemail"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Email"
+                android:background="@drawable/form_border"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                />
+
+            <EditText
+                android:id="@+id/contactmobile"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint=" Mobile No"
+                android:inputType="number"
+                android:background="@drawable/form_border"
+                android:padding="10dp"
+                android:maxLength="11"
+                android:layout_marginTop="10dp"
+                android:textSize="12sp"
+                />
+
+            <EditText
+                android:id="@+id/contactmessage"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:hint="Message"
+                android:background="@drawable/form_border"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:maxLines="5"
+                android:lines="5"
+                android:textSize="12sp"
+
+                />
+
+            <Button android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:background="@drawable/button_border"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+    <include
+        layout="@layout/app_bar_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_menu"
+        app:menu="@menu/activity_menu_drawer"
+        app:theme="@style/NavigationDrawerStyle"/>
+
+
+</android.support.v4.widget.DrawerLayout>

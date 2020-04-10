@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Spar</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="aboutUs">
+       The Society for the Protection of Animal Rights (SPAR) was founded July 2017 in Karachi, Pakistan. The creation of this organisation was a response to the dire need for a formal platform to safeguard animal rights and welfare,
+        which over the years has diminished.As investigation of the existing animal rights laws Pakistan’s Prevention of Cruelty to Animal’s Act 1890 needed to be revised to be cohesive with the current Pakistani context.
+        SPAR realised very quickly that to have any tangible impact at a grass roots level for the protection of all animals (urban, rural and wild) there needed to be an organisation to facilitate the construction and implementation of an institutional framework.
+        This framework would connect all the necessary government and civil society departments and organisations from federal to provincial to city and to street animal rescue operations.This new environment identified by SPAR and being developed by us to bridge the gaps between human and animal abuse due to misunderstanding and lack of education is a three tiered consolidation:
+        \n
+        1. Policy and legislation with relevant rules and regulations implementation
+        \n
+        2. Awareness and education
+        \n
+        3. Advocacy and data collection
+        \n
+    </string>
+
+    <string name="ourVision">
+        • To educate people on the value of animals; as their guardians not, owners.
+    </string>
+    <string name="ourMission">
+       • To connect government and private organisations on the same platform towards a single “co-healing” agenda.
+        \n
+       • To enforce the animal rights law when all other supportive parameters have been neglected.
+         \n
+       • To create multiplatform advocacy programs with the support of government, education institutions and corporations.
+    </string>
+    <string name="ourAim">
+       • To be a bridging program between human and animal ensuring healthy &amp; sustainable coexistence.
+    </string>
+
+    <string name="contactInfo">
+        Email: info@sparpk.org
+    </string>
+</resources>
